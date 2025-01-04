@@ -18,25 +18,36 @@ The code displayed in the game is just a random mix of programming languages and
 
 ## Files:
 
-driver.py  
-&nbsp;&nbsp;&nbsp;&nbsp;This file contains the GUI menu that allows you to choose the dimensions of the game. The three options are 1024 x 768 (4/3 aspect ratio), 1280 x 800 (16/10 aspect ratio), and 1536 x 864 (16/9 aspect ratio). When one of the dimension boxes is clicked, hackGame.py is called from the command prompt using the dimensions as arguments.  
-hackGame.py  
+driver.py
+
+&nbsp;&nbsp;&nbsp;&nbsp;This file contains the GUI menu that allows you to choose the dimensions of the game. The three options are 1024 x 768 (4/3 aspect ratio), 1280 x 800 (16/10 aspect ratio), and 1536 x 864 (16/9 aspect ratio). When one of the dimension boxes is clicked, hackGame.py is called from the command prompt using the dimensions as arguments.
+
+hackGame.py
+
 &nbsp;&nbsp;&nbsp;&nbsp;This file is the actual game. It draws the window depending on the given command-line argument dimensions (or 800 x 600 if no dimensions were given) and handles all of the keypresses during the game, most of which generate a random line of "hacker code".
 
 ## Sources:
 
-Sources that helped me create the project:  
-https://www.dk.com/us/book/9781465473615-coding-games-in-python/  
-Coding Games in Python, published by DK, was a helpful starting point to learning Pygame Zero.  
-https://pygame-zero.readthedocs.io/en/stable/  
-&nbsp;&nbsp;&nbsp;&nbsp;The Pygame Zero documentation was very helpful during the creation of this game.  
-https://stackoverflow.com/questions/25651990/oserror-winerror-193-1-is-not-a-valid-win32-application  
-&nbsp;&nbsp;&nbsp;&nbsp;This webpage was helpful when I was creating driver.py.  
-https://hackertyper.net/  
+Sources that helped me create the project:
+
+https://www.dk.com/us/book/9781465473615-coding-games-in-python/
+
+Coding Games in Python, published by DK, was a helpful starting point to learning Pygame Zero.
+
+https://pygame-zero.readthedocs.io/en/stable/
+
+&nbsp;&nbsp;&nbsp;&nbsp;The Pygame Zero documentation was very helpful during the creation of this game.
+
+https://stackoverflow.com/questions/25651990/oserror-winerror-193-1-is-not-a-valid-win32-application
+
+&nbsp;&nbsp;&nbsp;&nbsp;This webpage was helpful when I was creating driver.py.
+
+https://hackertyper.net/
+
 &nbsp;&nbsp;&nbsp;&nbsp;This website was the main inspiration of the project.
 
 ## Author:
 
-Zachary Muranaka  
-&nbsp;&nbsp;&nbsp;&nbsp;zmuranaka@gmail.com  
-&nbsp;&nbsp;&nbsp;&nbsp;https://zmuranaka.github.io
+Zachary Muranaka
+&nbsp;&nbsp;&nbsp;&nbsp;zmuranaka@gmail.com
+&nbsp;&nbsp;&nbsp;&nbsp;https://zmuranaka.dev
